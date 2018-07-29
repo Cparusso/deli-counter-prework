@@ -3,6 +3,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   end
 
+  numbered_line = []
   katz_deli.each_with_index do |person, index|
     person = "#{index + 1}. #{person}"
   end
