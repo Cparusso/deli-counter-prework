@@ -5,4 +5,5 @@ def line(deli_line, name)
 
   deli_line << name
 
+  del
 end
