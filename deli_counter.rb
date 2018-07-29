@@ -9,5 +9,5 @@ def line(katz_deli)
     numbered_line << "#{index + 1}. #{person}"
   end
 
-  puts "The line is currently: #{numbered_line}"
+  puts "The line is currently: #{numbered_line.join(', ')}"
 end
