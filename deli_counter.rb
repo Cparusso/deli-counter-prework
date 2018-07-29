@@ -3,5 +3,5 @@ def line(katz_deli)
     "The line is currently empty."
   end
 
-  deli_line
+  katz_deli
 end
