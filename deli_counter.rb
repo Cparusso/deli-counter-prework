@@ -3,7 +3,5 @@ def line(deli_line)
     "The line is currently empty."
   end
 
-  deli_line << name
-
   deli_line
 end
