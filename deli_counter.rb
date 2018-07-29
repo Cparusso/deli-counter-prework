@@ -4,8 +4,9 @@ def line(katz_deli)
   end
 
   numbered_line = []
+
   katz_deli.each_with_index do |person, index|
-    person = "#{index + 1}. #{person}"
+    numbered_line << "#{index + 1}. #{person}"
   end
 
   puts "The line is currently: #{katz_deli}"
