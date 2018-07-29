@@ -7,4 +7,5 @@ def line(katz_deli)
 
   katz_deli.each_with_index do |person, index|
     numbered_line << "#{index + 1}. person"
+  end
 end
