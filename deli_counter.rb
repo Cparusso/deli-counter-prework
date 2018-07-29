@@ -5,6 +5,6 @@ def line(katz_deli)
 
   numbered_line = []
 
-  katz_deli.each_with_index do |person, inde|
-    numbered_line << "#{}"
+  katz_deli.each_with_index do |person, index|
+    numbered_line << "#{index + 1}. person"
 end
