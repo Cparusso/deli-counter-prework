@@ -4,7 +4,7 @@ def line(katz_deli)
   end
 
   katz_deli.each_with_index do |person, index|
-    katz_deli << "#{index + 1}. person"
+    person == "#{index + 1}. person"
   end
 
   puts "The line is currently: #{katz_deli}"
