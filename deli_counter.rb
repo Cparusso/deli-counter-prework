@@ -4,8 +4,8 @@ def line(katz_deli)
   end
 
   katz_deli.each_with_index do |person, index|
-    numbered_line << "#{index + 1}. person"
+    katz_deli << "#{index + 1}. person"
   end
 
-  
+
 end
