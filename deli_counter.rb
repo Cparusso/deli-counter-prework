@@ -7,5 +7,5 @@ def line(katz_deli)
     katz_deli << "#{index + 1}. person"
   end
 
-
+  puts "The line is currently: #{katz_deli}"
 end
